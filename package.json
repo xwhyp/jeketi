@@ -1,0 +1,39 @@
+{
+  "name": "jkt48-sns",
+  "version": "1.1.1",
+  "description": "JKT48 members and officials account list.",
+  "author": "f2face",
+  "main": "./dist/index.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "pnpm clean && tsc",
+    "clean": "pnpm exec rimraf dist/"
+  },
+  "keywords": [
+    "jkt48",
+    "jkt48-idn",
+    "jkt48-instagram",
+    "jkt48-showroom",
+    "jkt48-tiktok",
+    "jkt48-twitter"
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/f2face/jkt48-sns"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.8",
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
+    "axios": "^1.6.7",
+    "cheerio": "1.0.0-rc.12",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.2.4",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
+  }
+}
